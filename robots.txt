@@ -1,0 +1,14 @@
+# Robots.txt for Marketgint
+# Allow all crawlers to index the site
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://marketgint.com/sitemap.xml
+
+# Crawl delay (respect server resources)
+Crawl-delay: 1
